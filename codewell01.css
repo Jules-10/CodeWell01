@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css?family=Inter");
+@import url("https://fonts.googleapis.com/css?family=Sen");
+
+
+body{
+    background-color: #003142;
+    color: #A7B7C6;
+    font-family: "Sen";
+    margin: 20px;
+    overflow-x: hidden;
+}
+
+*{
+    position: absolute;
+    transition: 0.3s;
+}
+
+
+
+header img {
+    height: 23px;
+    width: auto;
+    top: 9px;
+}
+
+h1 {
+    top: 15vh;
+    color: #79F5C9;
+    font-family: "Sen";
+    font-size: 3.2em;
+    letter-spacing: 2px;
+}
+
+.description{
+    top: 33vh;
+    width: calc(95vw - 20px);
+    max-width: 450px;
+    font-size: 1.3em;
+}
+
+.button{
+    top: 47vh;
+    width: 253px;
+    padding: 20px;
+    background-color: #79F5C9;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: #003142;
+    font-weight: 700;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+footer{
+    left: -10px;
+    display: flex;
+    top: 87vh;
+    align-items: center;
+}
+
+footer * {
+    position: relative;
+    margin-left: 10px;
+    max-height: 37px;
+}
+
+footer p{
+    width: 300px;
+    font-size: 1.3em;
+}
+
+@media screen and (max-width: 720px) {
+    images img:nth-child(1), img:nth-child(4), images img:nth-child(5) {
+        opacity: 0;
+    }
+    h1:not(#top){
+        display: none;
+    }
+}
+
+images {
+    z-index: -1;
+}
+
+
+images img:nth-child(2){
+    height: 18vh; width: auto;
+    top: 6.5vh;
+    left: 42vw;
+}
+
+images img:nth-child(3){
+    height: 12vh; width: auto;
+    top: 9vh;
+    left: 6vw;
+}
+
+images img:nth-child(6) {
+    height: 20vh; width: auto;
+    left: 30vw;
+    top: 52vh;
+}
+
+/* tablet */
+@media screen and (min-width: 721px) and (max-width: 960px) {
+    body{
+        margin: 35px;
+    }
+    h1:not(#top){
+        display: none;
+    }
+    h1{
+        top: 18vh;
+        font-size: 5.85em;
+    }
+    .description{
+        top: 50vh;
+        width: 60vw;
+        max-width: 500px;
+        line-height: 1.5em ;
+    }
+    .button{
+        top: 63vh;
+    }
+    images img:nth-child(1) {
+        height: 10vh; width: auto;
+        top: 28vh;
+        left: 72vw;
+    }
+    images img:nth-child(2) {
+        height: 18vh; width: auto;
+        left: 65vw;
+        top: 0;
+    }
+    images img:nth-child(3) {
+        height: 15vh; width: auto;
+        top: 6vh;
+        left: 0;
+    }
+    images img:nth-child(4) {
+        height: 25vh; width: auto;
+        top: 65vh;
+        left: 55vw;
+    }
+    images img:nth-child(5) {
+        height: 10.5vh; width: auto;
+        top: 20vh;
+        left: 60vw;
+    }
+    images img:nth-child(6) {
+        height: 13vh; width: auto;
+        top: 44vh;
+        left: 62vw;
+    }
+}
+
+
+/* computer */
+@media screen and (min-width: 961px) {
+
+    h1#top {
+        display: none;
+    }
+    body{
+        margin: 25px 120px 120px 120px;
+    }
+    h1{
+        top: -3vh;
+        font-size: 8.35em;
+        line-height: 21vh;
+    }
+    .description{
+        top: 55vh;
+        width: 60vw;
+        max-width: 500px;
+        line-height: 1.5em ;
+    }
+    .button{
+        top: 71vh;
+    }
+    footer{
+        top: 83vh;
+        left: -30px;
+    }
+    h1 {
+        width: 90vw;
+    }
+    h1 span#under{
+        z-index: -2;
+        left: 0;
+    }
+    h1 span:not(#under){
+        left: 570px;
+    }
+    images img:nth-child(1) {
+        height: 12vh; width: auto;
+        top: 42vh;
+        left: 66vw;
+    }
+    images img:nth-child(2) {
+        height: 25vh; width: auto;
+        left: 68vw;
+        top: 0;
+    }
+    images img:nth-child(3) {
+        height: 15vh; width: auto;
+        top: 10vh;
+        left: -5.5vw;
+    }
+    images img:nth-child(4) {
+        height: 27vh; width: auto;
+        top: 60vh;
+        left: 57vw;
+    }
+    images img:nth-child(5) {
+        height: 12vh; width: auto;
+        top: 7.5vh;
+        left: 52vw;
+    }
+    images img:nth-child(6) {
+        height: 15vh; width: auto;
+        top: 43vh;
+        left: 39vw;
+    }
+}
