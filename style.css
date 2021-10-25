@@ -163,7 +163,7 @@ images img:nth-child(6) {
         display: none;
     }
     body{
-        margin: 25px 120px 120px 120px;
+        margin: 25px 150px 120px 150px;
     }
     h1{
         top: -3vh;
@@ -195,7 +195,7 @@ images img:nth-child(6) {
     }
     images img:nth-child(1) {
         height: 12vh; width: auto;
-        top: 42vh;
+        top: 40vh;
         left: 66vw;
     }
     images img:nth-child(2) {
@@ -205,8 +205,8 @@ images img:nth-child(6) {
     }
     images img:nth-child(3) {
         height: 15vh; width: auto;
-        top: 10vh;
-        left: -5.5vw;
+        top: 8vh;
+        left: -6vw;
     }
     images img:nth-child(4) {
         height: 27vh; width: auto;
@@ -220,7 +220,7 @@ images img:nth-child(6) {
     }
     images img:nth-child(6) {
         height: 15vh; width: auto;
-        top: 43vh;
-        left: 39vw;
+        top: 41vh;
+        left: 33vw;
     }
 }
